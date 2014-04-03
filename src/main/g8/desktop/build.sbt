@@ -5,4 +5,4 @@ libraryDependencies ++= Seq(
   "com.badlogicgames.gdx" % "gdx-platform" % "$libgdx_version$" classifier "natives-desktop"
 )
 
-resourceDirectory in Compile := file("../android/assets")
+unmanagedResourceDirectories in Compile += baseDirectory.value / "../android/assets"
