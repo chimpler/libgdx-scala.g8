@@ -19,4 +19,6 @@
 #   public *;
 #}
 
- -dontwarn com.badlogic.gdx.jnigen.**
+-dontwarn android.support.**
+
+-dontwarn com.badlogic.gdx.backends.android.AndroidFragmentApplication

@@ -5,5 +5,5 @@ android.Plugin.androidBuild
 platformTarget in Android := "android-$android_api_level$"
 
 libraryDependencies ++= Seq(
-    "com.badlogicgames.gdx" % "gdx-backend-android" % "0.9.9"
+    "com.badlogicgames.gdx" % "gdx-backend-android" % "$libgdx_version$"
 )

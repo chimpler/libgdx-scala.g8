@@ -2,10 +2,8 @@ import sbt.Keys._
 
 scalaVersion := "$scala_version$"
 
-val libGdxVersion = "$libgdx_version$"
-
 libraryDependencies ++= Seq(
-    "com.badlogicgames.gdx" % "gdx" % libGdxVersion
+    "com.badlogicgames.gdx" % "gdx" % "$libgdx_version$"
 )
 
 exportJars := true
